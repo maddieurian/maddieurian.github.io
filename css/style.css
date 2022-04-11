@@ -9,12 +9,12 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #b5838d;
   text-align: center;
   /* min-width: 500px; */
 }
 header {
-  font-family: Work Sans;
+  font-family: 'Commissioner', sans-sans-serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'Fraunces', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -40,12 +40,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #b5838d;
   padding: 10px 0px 10px 10px;
 }
 
@@ -64,8 +64,8 @@ img {
 
 .bio {
   color: #ffffff;
-  font-size: 24px;
-  font-family: 'Work Sans';
+  font-size: 16px;
+  font-family: 'Commissioner', sans-sans-serif;
 }
 
 .buttonBox {
@@ -86,7 +86,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color: rgba(0,0,0,.50);
 }
 
 .myButton:active {
@@ -116,8 +116,8 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
-  font-size: 14px;
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
@@ -127,8 +127,8 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
-  font-size: 14px;
+  font-family: 'Commissioner', sans-sans-serif;
+  font-size: 10px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
@@ -152,6 +152,10 @@ img {
 
 footer {
   margin-top: 44px;
+}
+
+a {
+  color: #e5989b;
 }
 
 @media all and (max-width:700px) {
