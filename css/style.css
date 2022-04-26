@@ -64,7 +64,7 @@ img {
 
 .bio {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Commissioner', sans-sans-serif;
 }
 
@@ -162,7 +162,7 @@ footer div {
 }
 
 a {
-  color: #e5989b;
+  color: #6d6875;
 }
 
 @media all and (max-width:700px) {
